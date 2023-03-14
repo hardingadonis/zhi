@@ -28,8 +28,11 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- *
+ * A class contains methods for generating hashes.
+ * 
+ * @since 0.1.0
  * @author Minh Vương
+ * @version 0.1.0
  */
 public class Hash {
 

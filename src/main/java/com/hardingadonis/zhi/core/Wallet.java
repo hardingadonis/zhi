@@ -26,8 +26,11 @@ package com.hardingadonis.zhi.core;
 import com.hardingadonis.zhi.exception.ErrorVerificationException;
 
 /**
+ * A class representing a wallet, include CASH and BANK.
  *
+ * @since 0.1.0
  * @author Minh Vương
+ * @version 0.1.0
  */
 public class Wallet {
 

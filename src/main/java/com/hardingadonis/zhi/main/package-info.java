@@ -21,18 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.hardingadonis.zhi.main;
-
-
 /**
- * A class include main method of Zhi
- * 
+ * This module include main method of Zhi
+ *
  * @since 0.1.0
  * @author Minh Vương
  * @version 0.1.0
  */
-public class Main {
-
-    public static void main(String[] args) {
-    }
-}
+package com.hardingadonis.zhi.main;

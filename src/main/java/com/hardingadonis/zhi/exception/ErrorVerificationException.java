@@ -24,21 +24,27 @@
 package com.hardingadonis.zhi.exception;
 
 /**
+ * An exception for unverified hash code handling
  *
+ * @since 0.1.0
  * @author Minh Vương
+ * @version 0.1.0
  */
 public class ErrorVerificationException extends RuntimeException {
 
     /**
-     *
+     * Constructs an {@code ErrorVerificationException} with the default error
+     * message "Error verification".
      */
     public ErrorVerificationException() {
         super("Error verification");
     }
 
     /**
+     * Constructs an {@code ErrorVerificationException} with the specified error
+     * message.
      *
-     * @param message
+     * @param message the error message to display
      */
     public ErrorVerificationException(String message) {
         super(message);
