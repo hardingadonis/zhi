@@ -29,10 +29,17 @@ package com.hardingadonis.zhi.exception;
  */
 public class ErrorVerificationException extends RuntimeException {
 
+    /**
+     *
+     */
     public ErrorVerificationException() {
         super("Error verification");
     }
 
+    /**
+     *
+     * @param message
+     */
     public ErrorVerificationException(String message) {
         super(message);
     }

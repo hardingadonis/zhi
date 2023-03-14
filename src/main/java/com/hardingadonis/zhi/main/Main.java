@@ -23,7 +23,6 @@
  */
 package com.hardingadonis.zhi.main;
 
-import com.hardingadonis.zhi.core.Wallet;
 
 /**
  *
@@ -32,8 +31,5 @@ import com.hardingadonis.zhi.core.Wallet;
 public class Main {
 
     public static void main(String[] args) {
-        Wallet w = new Wallet(1, "Timo", Wallet.Type.BANK, 0);
-        
-        System.out.println(w);
     }
 }
